@@ -23,8 +23,7 @@ function decodeUplink(input) {
 	var tem = 0; //tem,units: °  
 	var latitude = 0;//gps latitude,units: °  
 	var longitude = 0;//gps longitude,units: ° 
-	// var location=0;
-	var location;
+	var location = {};
 	var time = "";
 	var date = "";
 	var sub_band;
